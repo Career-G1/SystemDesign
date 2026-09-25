@@ -1,6 +1,6 @@
 # GitHub Project setup
 
-Create a **User-owned or repository-owned Project** named `CareerG1 System Design Learning`.
+Create a **User-owned or repository-owned Project** named `System Design Interview Learning`.
 
 ## Views
 

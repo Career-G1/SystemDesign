@@ -1,4 +1,4 @@
-# CareerG1 System Design Wiki
+# System Design Interview Wiki
 
 Start here:
 

@@ -1,5 +1,5 @@
 ---
-name: CareerG1 code investigation
+name: System-design code investigation
 about: Record where a system-design concern exists in the application
 title: "[Investigation] "
 labels: careerG1, code-lab

@@ -4,9 +4,9 @@
 
 How do we protect users, credentials, and paid AI endpoints?
 
-## CareerG1 code
+## Example code
 
-- `.env` references
+- configuration references
 - `backend/app/core/jwt.py`
 - `backend/app/core/oauth_verifier.py`
 - `backend/app/core/authz.py`

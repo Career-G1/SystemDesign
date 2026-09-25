@@ -22,7 +22,7 @@ One GitHub Issue represents one 30-minute system-design session. The issue is no
 ### During the session
 
 - Read only the linked primer section.
-- Inspect the CareerG1 paths named in the issue.
+- Inspect the example code paths named in the issue, or create a small local example if no application is available.
 - Run the lab or write the requested artifact.
 - Record assumptions and unknowns in the issue.
 
@@ -35,7 +35,7 @@ One GitHub Issue represents one 30-minute system-design session. The issue is no
 
 ## What belongs in code
 
-Use code when the lesson has a measurable behavior:
+Use small, general examples when the lesson has a measurable behavior:
 
 - latency and throughput: load-test or timing harness;
 - caching: cache-aside helper and hit/miss tests;
@@ -44,7 +44,7 @@ Use code when the lesson has a measurable behavior:
 - REST: idempotency-key middleware or contract test;
 - auth: token validation and authorization tests.
 
-Do not turn every lesson into production refactoring. A learning lab should be isolated, small, repeatable, and safe to delete.
+Do not turn every lesson into production refactoring. A learning lab should be isolated, small, repeatable, technology-neutral where possible, and safe to delete.
 
 ## What belongs in documentation
 
@@ -61,4 +61,4 @@ The Wiki is the friendly reading surface. `docs/` is the version-controlled sour
 
 ## Suggested labels
 
-`system-design`, `session-01` through `session-11`, `code-lab`, `careerG1`, `azure`, `security`, `needs-review`, `blocked`.
+`system-design`, `interview-prep`, `session-01` through `session-11`, `code-lab`, `azure`, `security`, `needs-review`, `blocked`.

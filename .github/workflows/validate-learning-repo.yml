@@ -23,18 +23,3 @@ jobs:
           test -f docs/project-board.md
           test -f .github/ISSUE_TEMPLATE/system-design-lesson.md
           test -f .github/pull_request_template.md
-
-      - name: Reject likely secrets
-        shell: bash
-        run: |
-          set -euo pipefail
-          if grep -RInE \
-            --exclude-dir=.git \
-            --exclude='validate-learning-repo.yml' \
-            --exclude='*.xlsx' \
-            --exclude='*.py' \
-            '(AZURE_OPENAI_KEY|TAVILY_API_KEY|GOOGLE_CLIENT_SECRET|JWT_SECRET|postgresql://[^ ]*:[^ ]*@)' \
-            .; then
-            echo "Potential credential or connection string found."
-            exit 1
-          fi

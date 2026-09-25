@@ -2,9 +2,9 @@
 
 ## Question
 
-How should a long-running CareerG1 agent run avoid occupying an HTTP worker?
+How should a long-running task avoid occupying an HTTP worker?
 
-## CareerG1 code
+## Example code
 
 - `backend/app/api/endpoints/agents.py`
 - `backend/app/agents/graph.py`

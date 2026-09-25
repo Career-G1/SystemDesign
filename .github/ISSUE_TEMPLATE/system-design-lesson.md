@@ -1,6 +1,6 @@
 ---
 name: System design lesson
-about: Assign one 30-minute CareerG1 system-design learning session
+about: Assign one 30-minute system-design interview learning session
 title: "[Session XX] "
 labels: system-design, needs-review
 assignees: ''
@@ -20,7 +20,7 @@ assignees: ''
 
 ## Inspect
 
-List the CareerG1 files or modules to inspect:
+List the example files or modules to inspect, or describe the local example to create:
 
 - 
 

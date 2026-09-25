@@ -19,9 +19,9 @@ One pull request should contain one learning outcome. It may include code, tests
 ## Definition of done
 
 - The learner can explain the concept without notes.
-- The listed CareerG1 code paths were inspected.
+- The listed example code paths were inspected, or a local example was created.
 - The code lab or evidence artifact is committed.
 - The Azure/GitHub platform mapping is documented.
 - Tests or validation run successfully.
-- No secrets or personal data are included.
+- No credentials, tokens, or personal data are included.
 - A reviewer has checked the trade-off and failure mode.

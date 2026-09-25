@@ -9,7 +9,7 @@
 
 Write the answer without notes.
 
-## CareerG1 example
+## Example application
 
 Name the code path, data store, or failure mode that makes the answer real.
 

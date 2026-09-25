@@ -4,14 +4,14 @@
 
 How do we distinguish a slow individual request from a system that cannot handle more concurrent users?
 
-## CareerG1 code
+## Example code
 
 - `backend/app/api/endpoints/agents.py`
 - `backend/app/agents/graph.py`
 
 ## Lab
 
-Create a small timing harness under `labs/session-01/` that records request count, concurrency, p50, p95, p99, and throughput. Do not use production credentials or endpoints.
+Create a small local timing harness under `labs/session-01/` that records request count, concurrency, p50, p95, p99, and throughput. Use a local stub rather than a real service.
 
 ## Azure/GitHub mapping
 
