@@ -26,7 +26,7 @@ List the example files or modules to inspect, or describe the local example to c
 
 ## Cloud/platform mapping
 
-- Azure service or GitHub capability:
+- AWS, Google Cloud, or GitHub capability:
 - Why it fits:
 - Main cost or failure mode:
 

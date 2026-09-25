@@ -2,7 +2,7 @@
 
 ## Question
 
-How do we protect users, credentials, and paid AI endpoints?
+How do we protect users, credentials, and paid APIs?
 
 ## Example code
 
@@ -16,9 +16,9 @@ How do we protect users, credentials, and paid AI endpoints?
 
 Write an authorization test matrix for normal users and admins. Verify issuer, audience, expiry, and signature. Define a Redis token-bucket key and TTL. Use placeholder values only.
 
-## Azure/GitHub mapping
+## AWS/Google Cloud/GitHub mapping
 
-Store secrets in Azure Key Vault and access them through managed identity. Use Microsoft Entra ID where appropriate, API Management for gateway policies, GitHub secret scanning, and GitHub Actions secrets for CI.
+For interview discussion, compare a secret manager, workload identity, an identity provider, and gateway policies. AWS examples include Secrets Manager, IAM, and Cognito; Google Cloud examples include Secret Manager, IAM, and Identity Platform. GitHub examples include repository secrets and secret scanning.
 
 ## Interview answer
 

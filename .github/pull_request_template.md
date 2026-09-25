@@ -11,7 +11,7 @@ Closes #
 - [ ] Code lab or test
 - [ ] Measurement or diagram
 - [ ] Wiki/docs updated
-- [ ] Azure/GitHub mapping documented
+- [ ] AWS/Google Cloud/GitHub mapping documented
 - [ ] Interview answer posted in Discussions
 - [ ] No secrets, tokens, or production data
 

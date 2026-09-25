@@ -14,9 +14,9 @@ How should a long-running task avoid occupying an HTTP worker?
 
 Define a producer/consumer contract. `POST /agents/run` returns `202 Accepted` and a `run_id`; `GET /agents/runs/{run_id}` returns queued, running, succeeded, failed, or cancelled. Add an idempotency key and a duplicate-delivery test.
 
-## Azure/GitHub mapping
+## AWS/Google Cloud/GitHub mapping
 
-Azure Service Bus provides durable delivery, retries, dead-lettering, and competing consumers. Azure Container Apps Jobs or a worker container can process the graph. GitHub Issues track the API contract and pull request.
+Amazon SQS/SNS or Google Pub/Sub provides durable delivery, retries, dead-lettering, and competing consumers. ECS, Cloud Run Jobs, or GKE can process the task. GitHub Issues track the API contract and pull request.
 
 ## Interview answer
 

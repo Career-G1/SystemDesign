@@ -20,7 +20,7 @@ Add these fields:
 | Session | Number | 1-11 |
 | Track | Single select | Foundations, Data, Delivery, Communication, Security, Capstone |
 | Priority | Single select | Must, Should, Nice |
-| Platform | Single select | GitHub, Azure, Local |
+| Platform | Single select | GitHub, AWS, Google Cloud, Local |
 | Evidence | Text | Link to evidence, commit, or PR |
 
 ## Automation

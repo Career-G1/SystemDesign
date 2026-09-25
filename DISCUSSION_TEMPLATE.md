@@ -15,7 +15,7 @@ Name the code path, data store, or failure mode that makes the answer real.
 
 ## Cloud/platform trade-off
 
-Which Azure or GitHub capability helps, and what cost or operational trade-off does it introduce?
+Which AWS, Google Cloud, or GitHub capability helps, and what cost or operational trade-off does it introduce?
 
 ## Challenge my answer
 

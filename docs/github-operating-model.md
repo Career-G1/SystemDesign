@@ -21,7 +21,7 @@ One pull request should contain one learning outcome. It may include code, tests
 - The learner can explain the concept without notes.
 - The listed example code paths were inspected, or a local example was created.
 - The code lab or evidence artifact is committed.
-- The Azure/GitHub platform mapping is documented.
+- The AWS/Google Cloud/GitHub platform mapping is documented.
 - Tests or validation run successfully.
 - No credentials, tokens, or personal data are included.
 - A reviewer has checked the trade-off and failure mode.

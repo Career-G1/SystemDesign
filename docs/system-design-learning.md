@@ -61,4 +61,4 @@ The Wiki is the friendly reading surface. `docs/` is the version-controlled sour
 
 ## Suggested labels
 
-`system-design`, `interview-prep`, `session-01` through `session-11`, `code-lab`, `azure`, `security`, `needs-review`, `blocked`.
+`system-design`, `interview-prep`, `session-01` through `session-11`, `code-lab`, `aws`, `gcp`, `security`, `needs-review`, `blocked`.

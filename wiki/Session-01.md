@@ -13,9 +13,9 @@ How do we distinguish a slow individual request from a system that cannot handle
 
 Create a small local timing harness under `labs/session-01/` that records request count, concurrency, p50, p95, p99, and throughput. Use a local stub rather than a real service.
 
-## Azure/GitHub mapping
+## AWS/Google Cloud/GitHub mapping
 
-Use Application Insights and Azure Monitor for request duration, dependency calls, failures, and percentile-based dashboards. Use GitHub Actions to run a repeatable local benchmark.
+Use Amazon CloudWatch or Google Cloud Monitoring for request duration, dependency calls, failures, and percentile-based dashboards. Use GitHub Actions to run a repeatable local benchmark.
 
 ## Interview answer
 
