@@ -1,0 +1,39 @@
+name: Validate learning repository
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required learning files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f docs/system-design-learning.md
+          test -f docs/cloud-platform-map.md
+          test -f docs/project-board.md
+          test -f .github/ISSUE_TEMPLATE/system-design-lesson.md
+          test -f .github/pull_request_template.md
+
+      - name: Reject likely secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE \
+            --exclude-dir=.git \
+            --exclude='*.xlsx' \
+            --exclude='*.py' \
+            '(AZURE_OPENAI_KEY|TAVILY_API_KEY|GOOGLE_CLIENT_SECRET|JWT_SECRET|postgresql://[^ ]*:[^ ]*@)' \
+            .; then
+            echo "Potential credential or connection string found."
+            exit 1
+          fi
