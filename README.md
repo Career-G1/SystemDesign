@@ -72,8 +72,13 @@ wiki/
   Session-01.md ... Session-11.md
 labs/
   session-01/ ... session-11/
+assignments/
+  Session-01.md ... Session-11.md
+notes/
+  _template.md
+  session-01/ ... session-11/
 evidence/
-  session-XX/
+  session-01/ ... session-11/
 ```
 
 ## Important safety rule
@@ -83,3 +88,15 @@ Never commit credentials, tokens, private keys, or real user data. Use placehold
 ## First assignment
 
 Start with **Session 01 - Performance vs scalability**. The goal is to explain the concept, state assumptions, compare trade-offs, identify bottlenecks, and answer the interview question clearly. Study Session 10 later as general security interview preparation.
+
+## Start here
+
+1. Create the GitHub Project using [`docs/project-board.md`](docs/project-board.md).
+2. Create an Issue from the lesson template for Session 01.
+3. Move the Issue to **Reading** and read [`wiki/Session-01.md`](wiki/Session-01.md).
+4. Write your notes in `notes/session-01/`.
+5. Complete `labs/session-01/` and save the result in `evidence/session-01/`.
+6. Post your two-minute answer in a GitHub Discussion.
+7. Open a pull request, request review, merge it, and move the Issue to **Done**.
+
+The ready-to-copy assignment bodies are in [`assignments/`](assignments/). Personal-note and evidence instructions are in [`notes/README.md`](notes/README.md) and [`evidence/README.md`](evidence/README.md).
