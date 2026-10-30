@@ -55,6 +55,8 @@ Recommended fields:
 | 11 | Capstone mock design | whole system | AWS or Google Cloud architecture and cost model |
 
 The detailed mapping is in [`docs/cloud-platform-map.md`](docs/cloud-platform-map.md).
+The recommended external study reference and note-taking guidance are in
+[`docs/reference-materials.md`](docs/reference-materials.md).
 
 ## Repository layout
 
@@ -77,6 +79,7 @@ assignments/
 notes/
   _template.md
   session-01/ ... session-11/
+    interview-notes.md
 evidence/
   session-01/ ... session-11/
 ```
@@ -100,3 +103,15 @@ Start with **Session 01 - Performance vs scalability**. The goal is to explain t
 7. Open a pull request, request review, merge it, and move the Issue to **Done**.
 
 The ready-to-copy assignment bodies are in [`assignments/`](assignments/). Personal-note and evidence instructions are in [`notes/README.md`](notes/README.md) and [`evidence/README.md`](evidence/README.md).
+
+## Practical learning loop
+
+Every session now includes a runnable local lab:
+
+1. Read the session page and assignment.
+2. Run the lab with Python from the repository root.
+3. Change one assumption or failure condition.
+4. Record the observed output, explanation, and trade-off in `evidence/session-XX/`.
+5. Deliver the two-minute interview answer aloud.
+
+The labs use only the Python standard library, local memory, SQLite, and fake data. They are teaching simulations, not production-ready distributed components.
