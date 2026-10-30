@@ -20,3 +20,19 @@ Explain performance versus scalability, define latency and throughput, and pract
 - [ ] I recorded p50, p95, p99, throughput, and errors.
 - [ ] I compared CloudWatch and Google Cloud Monitoring.
 - [ ] I answered the interview question aloud.
+
+## Detailed assignment
+
+1. Define latency, throughput, concurrency, saturation, availability, p50, p95, and p99 in your own words.
+2. State a small workload assumption: requests per second, payload size, concurrency, and an acceptable p95 target.
+3. Run the lab sequentially and concurrently against the local stub.
+4. Record request count, successes, failures, p50, p95, p99, elapsed time, and throughput.
+5. Identify the first bottleneck and name the next measurement that would confirm it.
+6. Compare vertical scaling, horizontal scaling, batching, caching, and asynchronous work.
+7. Explain why average latency alone can hide a bad tail.
+
+## Ready-to-copy Issue details
+
+- **Question:** How do we distinguish a slow individual request from a system that cannot handle more concurrent users?
+- **Evidence:** `notes/session-01/interview-notes.md` and `evidence/session-01/baseline.md`.
+- **Reviewer prompt:** Ask whether the answer separates single-request latency from capacity under concurrency.
